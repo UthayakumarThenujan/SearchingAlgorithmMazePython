@@ -46,6 +46,7 @@ def BFS(m):
     return fwdPath, count
 
 
+# maze creation
 m = maze(20, 20)
 m.CreateMaze()
 path = BFS(m)
